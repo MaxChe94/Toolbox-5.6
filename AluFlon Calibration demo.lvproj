@@ -51,7 +51,9 @@
 			<Item Name="WriteSingleCoil.vi" Type="VI" URL="../SubVI/WriteSingleCoil.vi"/>
 		</Item>
 		<Item Name="AluFlon Calibration.vi" Type="VI" URL="../AluFlon Calibration.vi"/>
+		<Item Name="Check.ctl" Type="VI" URL="../Custom Controls/Check.ctl"/>
 		<Item Name="ConnectionStatus.ctl" Type="VI" URL="../ConnectionStatus.ctl"/>
+		<Item Name="json test.vi" Type="VI" URL="../json test.vi"/>
 		<Item Name="Load settings from backup.vi" Type="VI" URL="../SubVI/Load settings from backup.vi"/>
 		<Item Name="Sensor General Class.lvclass" Type="LVClass" URL="../Sensor General Class/Sensor General Class.lvclass"/>
 		<Item Name="Untitled 3.vim" Type="VI" URL="../SubVI/Untitled 3.vim"/>
@@ -101,7 +103,6 @@
 				<Item Name="MB Serial Master Query Write Multiple Coils (poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Master Query Write Multiple Coils (poly).vi"/>
 				<Item Name="MB Serial Master Query Write Multiple Registers (poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Master Query Write Multiple Registers (poly).vi"/>
 				<Item Name="MB Serial Master Query Write Single Coil (poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Master Query Write Single Coil (poly).vi"/>
-				<Item Name="MB Serial Master Query Write Single Register (poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Master Query Write Single Register (poly).vi"/>
 				<Item Name="MB Serial Master Query.vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Master Query.vi"/>
 				<Item Name="MB Serial Modbus Data Unit to String.vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Modbus Data Unit to String.vi"/>
 				<Item Name="MB Serial Receive.vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Receive.vi"/>
