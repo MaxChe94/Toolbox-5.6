@@ -41,4 +41,9 @@
 {"index":11,"name":"pressure offset","register":9999,"word count":1,"Write":true},
 {"index":12,"name":"humidity offset","register":139,"word count":1,"Write":true},
 {"index":13,"name":"temperature offset","register":138,"word count":1,"Write":true},
-{"index":14,"name":"service code","register":800,"word count":1,"Write":true}]}
+{"index":14,"name":"service code","register":800,"word count":1,"Write":true}],"Commands":[
+{"index":0,"name":"clear errors","register":201,"data":1},
+{"index":1,"name":"reset","register":202,"data":1},
+{"index":2,"name":"to default","register":203,"data":1},
+{"index":3,"name":"heat on","register":204,"data":1},
+{"index":4,"name":"service mode","register":800,"data":2210}]}
