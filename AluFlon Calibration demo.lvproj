@@ -53,6 +53,7 @@
 		<Item Name="AluFlon Calibration.vi" Type="VI" URL="../AluFlon Calibration.vi"/>
 		<Item Name="Check.ctl" Type="VI" URL="../Custom Controls/Check.ctl"/>
 		<Item Name="ConnectionStatus.ctl" Type="VI" URL="../ConnectionStatus.ctl"/>
+		<Item Name="graph.ctl" Type="VI" URL="../Custom Controls/graph.ctl"/>
 		<Item Name="json test.vi" Type="VI" URL="../json test.vi"/>
 		<Item Name="Load settings from backup.vi" Type="VI" URL="../SubVI/Load settings from backup.vi"/>
 		<Item Name="Sensor General Class.lvclass" Type="LVClass" URL="../Sensor General Class/Sensor General Class.lvclass"/>
