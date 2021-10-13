@@ -38,7 +38,7 @@
 {"index":8,"name":"firmware version","register":111,"word count":1,"Write":false},
 {"index":9,"name":"humidity enable","register":112,"word count":1,"Write":false},
 {"index":10,"name":"tag","register":113,"word count":16,"Write":false},
-{"index":11,"name":"pressure offset","register":140,"word count":1,"Write":true},
+{"index":11,"name":"pressure offset","register":9999,"word count":1,"Write":true},
 {"index":12,"name":"humidity offset","register":139,"word count":1,"Write":true},
 {"index":13,"name":"temperature offset","register":138,"word count":1,"Write":true},
 {"index":14,"name":"service code","register":800,"word count":1,"Write":true}]}
