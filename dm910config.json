@@ -25,7 +25,8 @@
 {"index":24,"name":"ppm_w SF6","register":42,"word count":2},
 {"index":25,"name":"ppm_v N2","register":44,"word count":2},
 {"index":26,"name":"ppm_w N2","register":46,"word count":2},
-{"index":27,"name":"rH","register":48,"word count":2}],"Configuration":[
+{"index":27,"name":"rH","register":48,"word count":2},
+{"index":28,"name":"errors","register":200,"word count":1}],"Configuration":[
 {"index":0,"name":"address","register":100,"word count":1,"Write":true},
 {"index":1,"name":"baud rate","register":101,"word count":1,"Write":true},
 {"index":2,"name":"parity check","register":102,"word count":1,"Write":true},
