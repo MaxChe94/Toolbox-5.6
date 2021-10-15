@@ -48,6 +48,7 @@
 			<Item Name="SubVi.vi" Type="VI" URL="../SubVI/SubVi.vi"/>
 			<Item Name="TaskScheduller.vi" Type="VI" URL="../SubVI/TaskScheduller.vi"/>
 			<Item Name="TempToAtmel.vi" Type="VI" URL="../SubVI/TempToAtmel.vi"/>
+			<Item Name="visa test.vi" Type="VI" URL="../SubVI/visa test.vi"/>
 			<Item Name="WriteReg (float).vim" Type="VI" URL="../SubVI/WriteReg (float).vim"/>
 			<Item Name="WriteSingleCoil.vi" Type="VI" URL="../SubVI/WriteSingleCoil.vi"/>
 		</Item>
@@ -59,6 +60,7 @@
 		<Item Name="json test.vi" Type="VI" URL="../json test.vi"/>
 		<Item Name="Load settings from backup.vi" Type="VI" URL="../SubVI/Load settings from backup.vi"/>
 		<Item Name="Sensor General Class.lvclass" Type="LVClass" URL="../Sensor General Class/Sensor General Class.lvclass"/>
+		<Item Name="Statusbar.ctl" Type="VI" URL="../Custom Controls/Statusbar.ctl"/>
 		<Item Name="Untitled 3.vim" Type="VI" URL="../SubVI/Untitled 3.vim"/>
 		<Item Name="UploadCalibrDataFromTXT.vi" Type="VI" URL="../SubVI/UploadCalibrDataFromTXT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
