@@ -109,6 +109,7 @@
 				<Item Name="MB Serial Master Query Write Multiple Coils (poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Master Query Write Multiple Coils (poly).vi"/>
 				<Item Name="MB Serial Master Query Write Multiple Registers (poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Master Query Write Multiple Registers (poly).vi"/>
 				<Item Name="MB Serial Master Query Write Single Coil (poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Master Query Write Single Coil (poly).vi"/>
+				<Item Name="MB Serial Master Query Write Single Register (poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Master Query Write Single Register (poly).vi"/>
 				<Item Name="MB Serial Master Query.vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Master Query.vi"/>
 				<Item Name="MB Serial Modbus Data Unit to String.vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Modbus Data Unit to String.vi"/>
 				<Item Name="MB Serial Receive.vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Receive.vi"/>
@@ -178,6 +179,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ToolBox dm-910/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="Source[0].itemID" Type="Str">{B1138181-7A9A-41A3-858A-18AD544855B2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
