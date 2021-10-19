@@ -55,7 +55,9 @@
 		<Item Name="AluFlon Calibration.vi" Type="VI" URL="../AluFlon Calibration.vi"/>
 		<Item Name="Cancel button.ctl" Type="VI" URL="../Custom Controls/Cancel button.ctl"/>
 		<Item Name="Check.ctl" Type="VI" URL="../Custom Controls/Check.ctl"/>
+		<Item Name="check2.ctl" Type="VI" URL="../Custom Controls/check2.ctl"/>
 		<Item Name="ConnectionStatus.ctl" Type="VI" URL="../ConnectionStatus.ctl"/>
+		<Item Name="dm910config.json" Type="Document" URL="../dm910config.json"/>
 		<Item Name="graph.ctl" Type="VI" URL="../Custom Controls/graph.ctl"/>
 		<Item Name="json test.vi" Type="VI" URL="../json test.vi"/>
 		<Item Name="Load settings from backup.vi" Type="VI" URL="../SubVI/Load settings from backup.vi"/>
@@ -65,6 +67,7 @@
 		<Item Name="UploadCalibrDataFromTXT.vi" Type="VI" URL="../SubVI/UploadCalibrDataFromTXT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -115,6 +118,7 @@
 				<Item Name="MB Serial Receive.vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Receive.vi"/>
 				<Item Name="MB Serial String to Modbus Data Unit.vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial String to Modbus Data Unit.vi"/>
 				<Item Name="MB Serial Transmit.vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Serial Transmit.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
@@ -171,7 +175,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7D79255C-0B57-48BF-BF37-E2F681D0D13C}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ToolBox dm-910.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ToolBox dm-910/ToolBox dm-910.exe</Property>
@@ -179,15 +183,19 @@
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ToolBox dm-910/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B1138181-7A9A-41A3-858A-18AD544855B2}</Property>
+				<Property Name="Destination[2].destName" Type="Str">config</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/ToolBox dm-910</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{76CBCDD6-8685-4784-89EC-46FB6072CFB6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AluFlon Calibration.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/dm910config.json</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">ToolBox dm-910</Property>
 				<Property Name="TgtF_internalName" Type="Str">ToolBox dm-910</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
