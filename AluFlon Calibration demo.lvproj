@@ -188,7 +188,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7D79255C-0B57-48BF-BF37-E2F681D0D13C}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ToolBox dm-910.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ToolBox dm-910/ToolBox dm-910.exe</Property>
@@ -199,8 +199,7 @@
 				<Property Name="Destination[2].destName" Type="Str">config</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/ToolBox dm-910</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-				<Property Name="Source[0].itemID" Type="Str">{76CBCDD6-8685-4784-89EC-46FB6072CFB6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9D0F3F14-C072-47FA-AFF6-3CAA45B2DD96}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AluFlon Calibration.vi</Property>
